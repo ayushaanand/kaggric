@@ -3,10 +3,7 @@ import sys
 import time
 from kaggle_environments import make
 
-import os
-sys.path.insert(0, os.path.abspath('kaggric'))
-
-from kaggric.main import agent
+from main import agent
 
 def run_local_test():
     print("Initializing environment...")
